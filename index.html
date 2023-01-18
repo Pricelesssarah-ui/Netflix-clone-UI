@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--Meta data-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <!--Title-->
+    <title>Netflix clone UI</title>
+
+</head>
+
+<body>
+    
+    <!--Main container-->
+    <div class="container">
+
+        <div class="container-item1">
+
+            <!--Navigation Bar-->
+            <div class="item-value">
+                <h1 class="special">Netflix</h1>
+                    <div class="nav-bar">
+                        <span id="hamburger" onClick="myFunction()">&#9776;</span>
+                        
+                        <ul id="menu">
+                            <li> <select name="" id=""> 
+                                <option value="">English</option>
+                                <option value="">Hindi</option>
+                                <option value="">Spanish</option>
+                                <option value="">Swahili</option>
+                                </select>
+                            </li>
+                            <li><a href="signInPage/signIn.html">Sign In</a></li>
+                            
+                        </ul>
+                    </div>
+            </div>
+          
+
+
+
+            <!--Text-->
+            <div class="item">
+                <h1>Unlimited movies, TV <br> shows and more.</h1>
+                <p>Watch anywhere. Cancel anytime.</p>
+                <p>Ready to watch? Enter your email to 
+                    create or restart your membership.
+                </p>
+
+                <input type="email" placeholder="Email address" name="" id=""><button class="btn">Get Started > </button>
+
+            </div>
+        </div>
+
+        <hr>
+
+
+
+        <!--container-item2-->
+
+        <div class="container-item2">
+            <div class="text">
+                <h1>Enjoy on your TV.</h1>
+                <p>Watch on Smart TVs, Playstation, Xbox, Chromecast,
+                    Apple TV, Blu-ray players and more.
+                </p>
+            </div>
+
+            <div class="image">
+                <img src="images/img2.png" alt="">
+            </div>
+
+        </div>
+
+        <hr>
+
+
+
+        <!--container-item3-->
+
+        <div class="container-item2">
+            <div class="image">
+                <img src="images/img3.png" alt="">
+            </div>
+
+            <div class="text">
+                <h1>Download your shows to watch offline.</h1>
+                <p>Save your favorites easily and always have 
+                    something to watch.
+                </p>
+            </div>
+        </div>
+    
+        <hr>
+
+
+
+        <!--container-item4-->
+
+        <div class="container-item2">
+            <div class="text">
+                <h1>Watch everywhere</h1>
+                <p>Stream unlimited movies and TV shows on your phone,
+                    tablet, laptop, and TV without paying more.
+                </p>
+            </div>
+
+
+            <div class="image">
+                <img src="images/img4.png" alt="">
+            </div>
+        </div>
+
+
+        <hr>
+
+
+
+        <!--container-item5-->
+
+        <div class="container-item2">
+            <div class="image">
+                <img src="images/img5.png" alt="">
+            </div>
+
+
+            <div class="text">
+                <h1>Create profiles for kids</h1>
+                <p>Send kids on adventures with their favorite characters
+                    in a space made just for them--free with your membership.
+                </p>
+            </div>
+
+
+        </div>
+
+        <hr>
+
+
+
+        <!--container-item-->
+
+        <div class="container-item">
+            <div class="buttons">
+                <button class="faq">What is Netflix?</button> <br>
+                <button class="faq">How much does Netflix cost?</button><br>
+                <button class="faq">Where can I watch?</button><br>
+                <button class="faq">How do I cancel?<span>+</span></button><br>
+                <button class="faq">What can I watch on Netflix?</button><br>
+                <button class="faq">Is Netflix good for kids?</button><br>
+            </div>
+
+            <p class="text-color">Ready to Watch? Enter your email to create or restart
+                your medmbership.
+            </p>
+          
+            <input type="email" placeholder="Email address" name="" id=""><button class="btn">Get Started > </button>
+            
+        </div>
+
+        <hr>
+
+
+
+        <!--footer-->
+        <div class="footer">
+            <div class="footer-items">
+                <p> Questions? Call 1-844-505-2993</p>
+                <ul>
+                    <li>FAQ</li>
+                    <li>Investor Relations</li>
+                    <li>Ways to watch</li>
+                    <li>Corporate Information</li>
+                    <li>Only on Netflix</li>
+
+                    
+                    <select name="text" id="">
+                        <option value="">English</option>
+                    </select>
+
+                    <li>Netflix India</li>
+                   
+                </ul>
+            </div>
+
+
+            <div class="footer-items">
+                <ul>
+                    <li>Help Center</li>
+                    <li>Jobs</li>
+                    <li>Terms of Use</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+
+            <div class="remove">
+
+                <div class="footer-items">
+                    <ul>
+                        <li>Account</li>
+                        <li>Redeem Gifts Cards</li>
+                        <li>Privacy</li>
+                        <li>Speed Test</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="remove">
+
+                <div class="footer-items">
+                    <ul>
+                        <li>Media Center</li>
+                        <li>Buy Gifts Cards</li>
+                        <li>Cookie Preferences</li>
+                        <li>Legal Notices</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script>
+        function myFunction(){
+        var x = document.getElementById('menu');
+
+        if (x.style.display == 'block')
+        {
+            x.style.display = 'none';
+        }
+        else {
+            x.style.display = 'block';
+        }
+    }
+        
+    </script>
+</body>
+</html>
